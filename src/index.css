@@ -34,6 +34,9 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  backdrop-filter: blur(15px);
+  background-color: #FFF;
+  opacity: 80%;
 }
 
 .card_content {
